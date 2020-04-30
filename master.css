@@ -1,0 +1,22 @@
+
+
+body {
+  background-color: lightblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border : 2px solid black;
+  height: auto;
+  width: auto;
+  padding: 2rem;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
