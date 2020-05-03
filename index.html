@@ -12,10 +12,10 @@
     <h1>Binary to Decimal Converter</h1>
     <form action="">
       <label for="binary-num">Binary Num: </label>
-      <input type="text" name="binary" value="" id="input" pattern="\d*" maxlength="8" placeholder="Enter binary numbers only">
+      <input type="text" id="input" maxlength="8" placeholder="Enter binary numbers only" onchange="convert()">
       <label for="answer">Answer :</label>
-      <input type="text" name="" value="" id="answer">
-      <input type="submit" name="submit" value="convert" onclick="convert()">
+      <input type="text" id="answer" readonly>
+      <input type="button" name="submit" value="CONVERT" onclick="convert()">
       <!--onclick value calls fn-->
     </form>
   </div>
